@@ -1,0 +1,53 @@
+body {
+    font-family: 'Anonymous Pro', monospace;    
+}
+header {
+    border-bottom: 1px solid #000000;
+}
+.main-logo {
+    width: 100px;
+    position: absolute;
+    top: -10px;
+
+}
+.main-nav-items {
+    display: flex;
+    list-style: none;
+    margin-left: 70px;
+}
+.main-nav-item {
+    margin-right: 10px;
+}
+.main-nav-item a {
+    text-decoration: none;
+    color: #000000;
+}
+.main-nav-item a:hover {
+    text-decoration: none;
+    text-shadow: 0 0 1em #dc143c;
+}
+.content-container {
+    width: 80%;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 20px;
+}
+.main-calendar {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 30px;
+}
+.about-us-block {
+    display: flex;
+    align-items: center;
+}
+.about-us-description {
+    text-align: justify;
+    margin-right: 20px;
+}
+.about-us-block img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
