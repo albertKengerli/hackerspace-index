@@ -22,11 +22,59 @@
         </nav>
     </header>
     <main>
+        <div class="slider">
+            <div class="slider__wrapper">
+              <div class="slider__item">
+                <div style="height: 250px; background: orange;">1</div>
+              </div>
+              <div class="slider__item">
+                <div style="height: 250px; background: green;">2</div>
+              </div>
+              <div class="slider__item">
+                <div style="height: 250px; background: violet;">3</div>
+              </div>
+              <div class="slider__item">
+                <div style="height: 250px; background: coral;">4</div>
+              </div>
+              <div class="slider__item">
+                <div style="height: 250px; background: orange;">5</div>
+              </div>
+              <div class="slider__item">
+                <div style="height: 250px; background: green;">6</div>
+              </div>
+              <div class="slider__item">
+                <div style="height: 250px; background: violet;">7</div>
+              </div>
+              <div class="slider__item">
+                <div style="height: 250px; background: coral;">8</div>
+              </div>
+            </div>
+            <a class="slider__control slider__control_left" href="#" role="button"></a>
+            <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+          </div>
         <br>
         <br>
         <div class="content-container">
             <h1>Это сайт Минского хакерспейса. Сейчас у нас открыто.</h1>
-            <iframe class="main-calendar" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FMoscow&amp;src=bW9zazkzNjRAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=cnUuanVkYWlzbSNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=cnUuYnkjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%2322AA99&amp;color=%23329262&amp;color=%231F753C&amp;color=%231F753C&amp;showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <div class="calendar-block">
+                <div class="calendar-description">
+                    <h2>
+                        Предстоящие ивенты 
+                    </h2>
+                    <p>
+                        Здесь вы можете ознакомиться с предстоящими мероприятиями проходящими в хакерспейсею
+                    </p>
+                    <h2>
+                        Ближайшие мероприятия
+                    </h2>
+                    <ul>
+                        <li><strong>32.13.2020</strong> "Лекция о спагетии монстрах" <br> <strong>Начало </strong>19:30</li>
+                        <li><strong>33.13.2020</strong> "Мастеркласс по ничего-ни-деланию" <br> <strong>Начало </strong>6:30</li>
+                    </ul>
+                </div>
+
+                <iframe class="main-calendar" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FMoscow&amp;src=bW9zazkzNjRAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=cnUuanVkYWlzbSNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=cnUuYnkjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%2322AA99&amp;color=%23329262&amp;color=%231F753C&amp;color=%231F753C&amp;showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
             <div class="about-us-block">
                 <div class="about-us-description">
                     <h2>
@@ -46,5 +94,6 @@
         </div>
     </main>
     <footer></footer>
+    <script src="./js/slider.js"></script>
 </body>
 </html>
